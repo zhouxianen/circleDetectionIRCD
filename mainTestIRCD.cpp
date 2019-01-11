@@ -5,7 +5,9 @@
 
 using namespace std;
 using namespace cv;
- 
+
+#pragma comment(lib,"IRCDrelease32.lib")
+
 int main()
 {
 	bool doDisp = true;//Note that: if doDisp=true, press any key to contine!
