@@ -14,9 +14,9 @@ int main()
 	string pathImage2="imgBallSub3.png"; 
 	cv::Mat defResImg;
 	int Tdist= 1 ;//%the threshold distance of inner points
-	int Tie  = 100 ; //%the maximum of failure sample 3 points
-	int Tmd  = 5; //the minimum distance between any two points
-	funIRCD( pathImage1,defResImg,Tdist,Tie,Tmd, doDisp) ;//if doDisp=true, press any key to contine!
-	funIRCD( pathImage2,defResImg,Tdist,Tie,Tmd, doDisp) ;//if doDisp=true, press any key to contine!
-
+	int Tct  = 500 ; //%the maximum of failure sample 3 points
+	float T_GFC = 0.8 ;  
+	int Tcv =10 ;
+	funIRCD( pathImage1,defResImg,T_GFC,Tdist,Tct,Tcv, doDisp) ;//if doDisp=true, press any key to contine!
+	funIRCD( pathImage2,defResImg,T_GFC,Tdist,Tct,Tcv, doDisp) ;//if doDisp=true, press any key to contine!
 }
