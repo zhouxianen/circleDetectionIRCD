@@ -1,4 +1,4 @@
-The single circle dectection implementation with our proposed IRCD algorithm. Please read this document and "A Fast single circle detection algorithm IRCD.pdf" file before running the program.
+The single circle dectection implementation with our proposed IRCD algorithm. Please read this document and "IRCD-an Improved Randomized Circle Detection.pdf" file before running the program.
 
 # circleDetectionIRCD: if you use these codes, please cite the following paper:
  X. Zhou, Y. Wang, Q. Zhu, J. Mao, C. Xiao, X. Lu, H. Zhang,
